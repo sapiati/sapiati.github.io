@@ -18,10 +18,10 @@
 
   <div class="main">
     <h1>Kisérleti weboldal</h1>
-    
+
   </div>
   <h1>Az első fotóoldalam</h1>
-  
+
   <html>
 
   <head>
@@ -45,12 +45,12 @@
 
       /* Style the images inside the grid */
       .column img {
-        opacity: 0.8;
+        opacity: 1;
         cursor: pointer;
       }
 
       .column img:hover {
-        opacity: 1;
+        opacity: 0.8;
       }
 
       /* Clear floats after the columns */
@@ -107,13 +107,13 @@
       </div>
       <div class="column">
         <img src="picture/img_4.jpg" alt="Mountains" style="width:100%" onclick="myFunction(this);">
-        
+
       </div>
     </div>
 
     <div class="container">
       <span onclick="this.parentElement.style.display='none'" class="closebtn">&times;</span>
-      <img id="expandedImg" style="width:110%">
+      <img id="expandedImg" style="width:100%">
       <div id="imgtext"></div>
     </div>
 
